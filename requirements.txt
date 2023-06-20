@@ -2,5 +2,5 @@ pyrogram
 tgcrypto
 aiohttp
 regex
-json
+jsonlib
 requests
