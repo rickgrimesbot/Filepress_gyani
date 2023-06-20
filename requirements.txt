@@ -1,0 +1,6 @@
+pyrogram
+tgcrypto
+aiohttp
+re
+json
+requests
