@@ -4,9 +4,10 @@ from plugins.helper import START_TXT
 import aiohttp
 from plugins.filepress import get_filepress
 
-api_id = 2867802
-api_hash = "2b554cd6cd6ba30879edb053639e0170"
-bot_token = "5720444241:AAFIo-JWCgRCmh4O4J8fYke8nzvUTvwI4LA"
+api_id = 1234
+api_hash = "1456XYZ"
+bot_token = "ABCD1234"
+
 bot = Client("bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token,workers=50,sleep_threshold=10)
 
 @bot.on_message(filters.command(["start", "help"]) & filters.private)
